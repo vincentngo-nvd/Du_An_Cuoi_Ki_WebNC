@@ -1,0 +1,6 @@
+@Du_An_Cuoi_Ki_WebNC_HostAddress = http://localhost:5175
+
+GET {{Du_An_Cuoi_Ki_WebNC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

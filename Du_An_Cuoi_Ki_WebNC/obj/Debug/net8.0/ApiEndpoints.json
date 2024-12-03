@@ -1,0 +1,463 @@
+[
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.ChienAPIController",
+    "Method": "DeleteNhanVien",
+    "RelativePath": "api/ChienAPI/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.ChienAPIController",
+    "Method": "PostNhanVien",
+    "RelativePath": "api/ChienAPI/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nhanvien",
+        "Type": "Du_An_Cuoi_Ki_WebNC.Model.NhanvienModels",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Du_An_Cuoi_Ki_WebNC.Model.NhanvienModels",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.ChienAPIController",
+    "Method": "GetNhanVien",
+    "RelativePath": "api/ChienAPI/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Du_An_Cuoi_Ki_WebNC.Model.NhanvienModels, Du_An_Cuoi_Ki_WebNC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.ChienAPIController",
+    "Method": "GetTaiKhoan",
+    "RelativePath": "api/ChienAPI/List_taikhoan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Du_An_Cuoi_Ki_WebNC.Model.TaikhoanKH, Du_An_Cuoi_Ki_WebNC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.ChienAPIController",
+    "Method": "GetNhanVienID",
+    "RelativePath": "api/ChienAPI/ListId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Du_An_Cuoi_Ki_WebNC.Model.NhanvienModels",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.ChienAPIController",
+    "Method": "PutNhanVien",
+    "RelativePath": "api/ChienAPI/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nhanvien",
+        "Type": "Du_An_Cuoi_Ki_WebNC.Model.NhanvienModels",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.ChienAPIController",
+    "Method": "UpdateTaiKhoan",
+    "RelativePath": "api/ChienAPI/Update_taikhoan",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Du_An_Cuoi_Ki_WebNC.Model.TaikhoanKH",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "DeleteAllSanPham",
+    "RelativePath": "api/CongAPI/DeleteAllSanPham",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "DeletePhieuXuat",
+    "RelativePath": "api/CongAPI/DeletePhieuXuat",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "DeleteSP",
+    "RelativePath": "api/CongAPI/DeleteSanPham",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "ThemsanPham",
+    "RelativePath": "api/CongAPI/InsertSanPham",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sp",
+        "Type": "NguyenVanCong_2307.Models.sanpham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NguyenVanCong_2307.Models.sanpham",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "PostBrand",
+    "RelativePath": "api/CongAPI/InsertThuongHieu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "thuonghieu",
+        "Type": "NguyenVanCong_2307.Models.ThuongHieus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NguyenVanCong_2307.Models.ThuongHieus",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "DonHang",
+    "RelativePath": "api/CongAPI/ListDonHang",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "MonAns",
+    "RelativePath": "api/CongAPI/ListSanPham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "ListSanPhamByBrand",
+    "RelativePath": "api/CongAPI/ListSanPhamByBrand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brandId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "ListSanPhamWeb",
+    "RelativePath": "api/CongAPI/ListSanPhamWeb",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "GetBrands",
+    "RelativePath": "api/CongAPI/ListThuongHieu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NguyenVanCong_2307.Models.ThuongHieus, Du_An_Cuoi_Ki_WebNC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "SearchPhieuXuat",
+    "RelativePath": "api/CongAPI/SearchPhieuXuat",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "SearchPhieuXuatTheoNgay",
+    "RelativePath": "api/CongAPI/SearchPhieuXuatTheoNgay",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tungay",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "denngay",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "SearchSanPham",
+    "RelativePath": "api/CongAPI/SearchSanPham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "UpdateSanPham",
+    "RelativePath": "api/CongAPI/UpdateSanPham",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "masp",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedSanPham",
+        "Type": "NguyenVanCong_2307.Models.sanpham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.CongAPI",
+    "Method": "UpdateTinhTrangPhieuXuat",
+    "RelativePath": "api/CongAPI/UpdateTinhTrangPhieuXuat",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "Du_An_Cuoi_Ki_WebNC.DTO.UpdateTrangThaiRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Du_An_Cuoi_Ki_WebNC.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Du_An_Cuoi_Ki_WebNC.WeatherForecast, Du_An_Cuoi_Ki_WebNC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
